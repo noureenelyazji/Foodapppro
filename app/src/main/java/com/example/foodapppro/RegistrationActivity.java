@@ -2,6 +2,7 @@ package com.example.foodapppro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,5 +15,6 @@ public class RegistrationActivity extends AppCompatActivity {
     }
 
     public void register(View view) {
+        startActivity(new Intent(RegistrationActivity.this ,LoginActivity.class));
     }
 }

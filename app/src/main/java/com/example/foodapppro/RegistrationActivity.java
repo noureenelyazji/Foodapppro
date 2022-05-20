@@ -17,4 +17,8 @@ public class RegistrationActivity extends AppCompatActivity {
     public void register(View view) {
         startActivity(new Intent(RegistrationActivity.this ,LoginActivity.class));
     }
+
+    public void login(View view) {
+        startActivity(new Intent(RegistrationActivity.this,LoginActivity.class));
+    }
 }

@@ -14,11 +14,14 @@ public class RegistrationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
     }
 
-    public void register(View view) {
-        startActivity(new Intent(RegistrationActivity.this ,LoginActivity.class));
-    }
 
     public void login(View view) {
         startActivity(new Intent(RegistrationActivity.this,LoginActivity.class));
+    }
+
+
+    public void mainActivity(View view) {
+        startActivity(new Intent(RegistrationActivity.this,MainActivity.class));
+
     }
 }

@@ -11,4 +11,6 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="my_resturant_app">My Resturant App</string>
+    <string name="daily_meal">daily_meal</string>
+    <string name="favourite">Favourite</string>
 </resources>

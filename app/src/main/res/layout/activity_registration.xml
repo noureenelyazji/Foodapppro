@@ -137,13 +137,14 @@
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/sign"
         app:layout_constraintEnd_toEndOf="@+id/sign"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="@+id/button" />
 
     <TextView
         android:id="@+id/sign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="62dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginBottom="100dp"
         android:text="sign_in"
         android:textAlignment="center"

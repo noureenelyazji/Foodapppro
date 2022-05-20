@@ -71,6 +71,7 @@
         android:textColor="#FBFBFB"
         android:textSize="16sp"
         android:textStyle="bold"
+        android:onClick="login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

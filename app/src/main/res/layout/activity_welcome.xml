@@ -55,6 +55,7 @@
         android:padding="14dp"
         android:text="Register"
         android:textAllCaps="false"
+        android:onClick="register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"

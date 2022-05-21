@@ -1,10 +1,11 @@
-package com.example.foodapppro;
+package com.example.foodapppro.avtivities;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.Toolbar;
 
 
+import com.example.foodapppro.R;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
           setContentView(R.layout.activity_main);
-         Toolbar toolbar=findViewById(R.id.toolbar);
+         androidx.appcompat.widget.Toolbar toolbar=findViewById(R.id.toolbar);
          setSupportActionBar(toolbar);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_daily_meal, R.id.nav_favourite)
+                R.id.nav_home, R.id.nav_daily_meal, R.id.nav_favourite, R.id.nav_my_cart)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);

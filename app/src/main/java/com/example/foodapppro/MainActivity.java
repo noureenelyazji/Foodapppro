@@ -1,13 +1,10 @@
 package com.example.foodapppro;
 
 import android.os.Bundle;
-import android.service.controls.actions.FloatAction;
-import android.view.View;
 import android.view.Menu;
 import android.widget.Toolbar;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -17,13 +14,9 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.foodapppro.databinding.ActivityMainBinding;
-
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-    private ActivityMainBinding binding;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -13,4 +13,9 @@
     <string name="my_resturant_app">My Resturant App</string>
     <string name="daily_meal">daily_meal</string>
     <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_cart">My Cart</string>
+    <string name="shorttimecoding_gmail_com">shorttimecoding@gmail.com</string>
+    <string name="s_t_c">S T C</string>
 </resources>
